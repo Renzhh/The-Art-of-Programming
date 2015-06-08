@@ -6,4 +6,3 @@ Currently Just Following July's [Blog](http://blog.csdn.net/v_july_v) and [Githu
 I intend to use 2 months to AC these classic algorithms.
 
 Come on, guy, for the dream!
-Let's go!
