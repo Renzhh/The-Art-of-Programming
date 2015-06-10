@@ -3,7 +3,7 @@
 
 /*
 * @Author: dwyaneini
-* @Time: 2015-06-10
+* @Time: 2015-06-09
 * @Language: C 
 * Description: 快速判断字符串b中所有字母是否都在字符串a中, 且a的长度比b的长 
 * (规定: 字符串中只包含大写英文字母)
@@ -19,7 +19,7 @@
 *
 * Sol:
 * 将长字符串a中的所有字符都放入一个Hashtable里, 然后轮询短字符串b, 查看b的每个字符是否都在Hashtable里 
-* 本段代码对字符串a，用位运算(26bit整数表示)计算出一个"Signature", 再用B中的字符到A里进行查找 
+* 本段代码对字符串a，用位运算(26bit整数表示)计算出一个"Signature", 再用b中的字符到a里进行查找 
 */
 
 int StringContain(char* a, char* b);
