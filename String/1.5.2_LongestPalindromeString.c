@@ -66,6 +66,11 @@ PalindromeStringTag LongestPalindromeString(const char *s, int n)
 				break;
 			c = 2 * j + 1;
 		}
+		if (c > max)
+		{
+			max = c;
+			point = i;	
+		}	
 		//回文串长度为偶数 
 		for (j = 0; (i - j >= 0) && (i + j < n); j++)
 		{
